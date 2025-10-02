@@ -204,6 +204,23 @@ const Index = () => {
 
       {/* Resources Section */}
       <InfoSection id="recursos" title="Recursos e Informações" gradient>
+        {/* Video Section */}
+        <div className="mb-12 max-w-4xl mx-auto">
+          <div className="relative rounded-xl overflow-hidden shadow-xl bg-gradient-to-br from-primary/10 to-primary-light/10 p-1">
+            <video 
+              controls 
+              className="w-full rounded-lg"
+              poster=""
+            >
+              <source src="/src/assets/fibromialgia-video.mp4" type="video/mp4" />
+              Seu navegador não suporta a reprodução de vídeos.
+            </video>
+          </div>
+          <p className="text-center text-sm text-muted-foreground mt-4">
+            Fibromialgia: A Dor Invisível - Entenda mais sobre essa condição
+          </p>
+        </div>
+
         <div className="grid md:grid-cols-2 gap-6 md:gap-8">
           <div className="bg-card p-5 md:p-6 rounded-lg shadow-card">
             <BookOpen className="w-7 md:w-8 h-7 md:h-8 text-primary mb-4" />
