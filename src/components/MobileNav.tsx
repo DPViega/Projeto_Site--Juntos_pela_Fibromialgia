@@ -24,7 +24,7 @@ const MobileNav = () => {
       {/* Mobile Menu Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed top-4 right-4 z-50 p-3 bg-background/90 backdrop-blur-sm rounded-full shadow-soft md:hidden"
+        className="fixed top-4 right-4 z-[100] p-3 bg-background/90 backdrop-blur-sm rounded-full shadow-soft lg:hidden"
         aria-label="Menu"
       >
         {isOpen ? (
@@ -37,14 +37,14 @@ const MobileNav = () => {
       {/* Mobile Menu Overlay */}
       {isOpen && (
         <div
-          className="fixed inset-0 bg-foreground/20 backdrop-blur-sm z-40 md:hidden"
+          className="fixed inset-0 bg-foreground/20 backdrop-blur-sm z-[90] lg:hidden"
           onClick={() => setIsOpen(false)}
         />
       )}
 
       {/* Mobile Menu */}
       <nav
-        className={`fixed top-0 right-0 h-full w-72 bg-background shadow-xl z-45 transform transition-transform duration-300 md:hidden ${
+        className={`fixed top-0 right-0 h-full w-72 bg-background border-l border-border shadow-2xl z-[95] transform transition-transform duration-300 lg:hidden ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >

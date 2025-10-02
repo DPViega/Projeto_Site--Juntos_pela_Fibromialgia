@@ -18,7 +18,10 @@ import {
   Stethoscope,
   HandHeart,
   Lightbulb,
-  MessageCircle
+  MessageCircle,
+  Globe,
+  Info,
+  FileText
 } from "lucide-react";
 
 const Index = () => {
@@ -228,6 +231,116 @@ const Index = () => {
               <li>• Rotinas de autocuidado</li>
               <li>• Mindfulness e meditação</li>
             </ul>
+          </div>
+        </div>
+
+        {/* Links Section */}
+        <div className="mt-8 md:mt-10">
+          <h3 className="text-lg md:text-xl font-semibold text-center mb-6 text-foreground">
+            Links Úteis
+          </h3>
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <a 
+              href="https://www.sbr.org.br" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="group bg-gradient-to-br from-primary/20 to-primary-light/20 hover:from-primary/30 hover:to-primary-light/30 p-4 rounded-lg border border-primary/30 hover:border-primary/50 transition-all duration-300 hover:shadow-soft"
+            >
+              <div className="flex items-center space-x-3">
+                <div className="w-10 h-10 rounded-full bg-primary/30 group-hover:bg-primary/40 flex items-center justify-center transition-colors">
+                  <BookOpen className="w-5 h-5 text-primary-dark" />
+                </div>
+                <div className="flex-1">
+                  <h4 className="font-medium text-sm text-foreground">SBR</h4>
+                  <p className="text-xs text-muted-foreground">Sociedade Brasileira de Reumatologia</p>
+                </div>
+              </div>
+            </a>
+
+            <a 
+              href="https://www.niams.nih.gov/health-topics/fibromyalgia" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="group bg-gradient-to-br from-accent/30 to-primary/20 hover:from-accent/40 hover:to-primary/30 p-4 rounded-lg border border-accent/40 hover:border-accent/60 transition-all duration-300 hover:shadow-soft"
+            >
+              <div className="flex items-center space-x-3">
+                <div className="w-10 h-10 rounded-full bg-accent/40 group-hover:bg-accent/50 flex items-center justify-center transition-colors">
+                  <Globe className="w-5 h-5 text-primary-dark" />
+                </div>
+                <div className="flex-1">
+                  <h4 className="font-medium text-sm text-foreground">NIAMS</h4>
+                  <p className="text-xs text-muted-foreground">Instituto Nacional de Artrite dos EUA</p>
+                </div>
+              </div>
+            </a>
+
+            <a 
+              href="https://www.abrafibro.com.br" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="group bg-gradient-to-br from-primary-light/25 to-accent/25 hover:from-primary-light/35 hover:to-accent/35 p-4 rounded-lg border border-primary-light/40 hover:border-primary-light/60 transition-all duration-300 hover:shadow-soft"
+            >
+              <div className="flex items-center space-x-3">
+                <div className="w-10 h-10 rounded-full bg-primary-light/40 group-hover:bg-primary-light/50 flex items-center justify-center transition-colors">
+                  <Users className="w-5 h-5 text-primary-dark" />
+                </div>
+                <div className="flex-1">
+                  <h4 className="font-medium text-sm text-foreground">ABRAFIBRO</h4>
+                  <p className="text-xs text-muted-foreground">Associação Brasileira de Fibromiálgicos</p>
+                </div>
+              </div>
+            </a>
+
+            <a 
+              href="https://www.fmaware.org" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="group bg-gradient-to-br from-primary/20 to-primary-dark/20 hover:from-primary/30 hover:to-primary-dark/30 p-4 rounded-lg border border-primary/30 hover:border-primary/50 transition-all duration-300 hover:shadow-soft"
+            >
+              <div className="flex items-center space-x-3">
+                <div className="w-10 h-10 rounded-full bg-primary/30 group-hover:bg-primary/40 flex items-center justify-center transition-colors">
+                  <Heart className="w-5 h-5 text-primary-dark" />
+                </div>
+                <div className="flex-1">
+                  <h4 className="font-medium text-sm text-foreground">NFA</h4>
+                  <p className="text-xs text-muted-foreground">National Fibromyalgia Association</p>
+                </div>
+              </div>
+            </a>
+
+            <a 
+              href="https://www.arthritis.org/diseases/fibromyalgia" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="group bg-gradient-to-br from-accent/30 to-primary-light/30 hover:from-accent/40 hover:to-primary-light/40 p-4 rounded-lg border border-accent/40 hover:border-accent/60 transition-all duration-300 hover:shadow-soft"
+            >
+              <div className="flex items-center space-x-3">
+                <div className="w-10 h-10 rounded-full bg-accent/40 group-hover:bg-accent/50 flex items-center justify-center transition-colors">
+                  <Info className="w-5 h-5 text-primary-dark" />
+                </div>
+                <div className="flex-1">
+                  <h4 className="font-medium text-sm text-foreground">Arthritis Foundation</h4>
+                  <p className="text-xs text-muted-foreground">Fundação de Artrite</p>
+                </div>
+              </div>
+            </a>
+
+            <a 
+              href="https://www.who.int/news-room/fact-sheets/detail/musculoskeletal-conditions" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="group bg-gradient-to-br from-primary-light/25 to-primary/25 hover:from-primary-light/35 hover:to-primary/35 p-4 rounded-lg border border-primary-light/40 hover:border-primary-light/60 transition-all duration-300 hover:shadow-soft"
+            >
+              <div className="flex items-center space-x-3">
+                <div className="w-10 h-10 rounded-full bg-primary-light/40 group-hover:bg-primary-light/50 flex items-center justify-center transition-colors">
+                  <FileText className="w-5 h-5 text-primary-dark" />
+                </div>
+                <div className="flex-1">
+                  <h4 className="font-medium text-sm text-foreground">OMS</h4>
+                  <p className="text-xs text-muted-foreground">Organização Mundial da Saúde</p>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
 
