@@ -72,7 +72,7 @@ const MobileNav = () => {
 
           <div className="mt-8 pt-8 border-t border-border">
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/vivendo_comfibro?igsh=MXQ2cDV1czdoZmV2"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 px-4 py-3 bg-gradient-to-r from-primary to-primary-dark text-primary-foreground rounded-lg text-center font-medium"

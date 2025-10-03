@@ -15,7 +15,7 @@ const ContactSection = () => {
           </p>
           
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/vivendo_comfibro?igsh=MXQ2cDV1czdoZmV2"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-6 md:px-8 py-3 md:py-4 bg-gradient-to-r from-primary to-primary-dark text-primary-foreground rounded-full font-semibold text-base md:text-lg hover:shadow-hover transform hover:scale-105 transition-all duration-300"
