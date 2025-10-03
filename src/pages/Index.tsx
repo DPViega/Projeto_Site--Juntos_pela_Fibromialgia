@@ -212,7 +212,7 @@ const Index = () => {
               className="w-full rounded-lg"
               poster=""
             >
-              <source src="/src/assets/fibromialgia-video.mp4" type="video/mp4" />
+              <source src="/public/fibromialgia-video.mp4" type="video/mp4" />
               Seu navegador não suporta a reprodução de vídeos.
             </video>
           </div>
