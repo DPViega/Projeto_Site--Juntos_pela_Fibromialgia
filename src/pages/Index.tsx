@@ -220,7 +220,7 @@ const Index = () => {
             Fibromialgia: A Dor Invisível - Entenda mais sobre essa condição
           </p>
         </div>
-        
+
         <div className="grid md:grid-cols-2 gap-6 md:gap-8">
 
         </div>
